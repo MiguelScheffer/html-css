@@ -1,0 +1,15 @@
+body{
+    font-family: fonte;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    
+}
+@font-face {
+    font-family:fonte ;
+    src: url(medieval_queen/Medieval\ Queen.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: white;
+            }
+            body {
+                background-color:  rgb(27, 27, 27);
+                position: relative; /* Adicionado position relative ao body */
+            }
+            .video-container {
+                width: 560px;
+                height: 315px;
+                margin:  auto; /* Centraliza o elemento horizontalmente */
+                margin-top: 5%; /* Define uma margem superior para espaçamento */
+            }
+            .seta {
+                position: absolute;
+                bottom: -50px; /* Define uma distância entre a seta e o elemento abaixo (neste caso, o iframe) */
+                left: calc(50% - 25px); /* Centraliza a seta horizontalmente */
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso html</title>
+    </head>
+    <body>
+        <h1>Curso de Html</h1>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"><img class="seta" src="img/seta.png" alt=""></a>
+    </body>
+    </html>

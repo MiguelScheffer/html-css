@@ -1,0 +1,11 @@
+h1{
+    border: 20px solid black;
+    padding: 10px;
+    border-image-source: url(img/borda\ personalizada.jpg);
+    border-image-slice: 60;
+    border-image-repeat: ;
+
+
+
+
+}

@@ -1,0 +1,16 @@
+body{
+    font-family:'work-sans',Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: normal;
+    text-decoration: underline;
+}
+h1{
+   
+    font: italic bolder 3em 'work Sans', sans-serif
+    
+}
+h2{
+    font-family: fantasy;
+    font: bold 2em 'work-sans';
+}

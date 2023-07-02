@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a.hover{
+    text-decoration: underline;
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: grey; 
+}
+.aee{
+    background-color: rgb(141, 65, 65);
+}

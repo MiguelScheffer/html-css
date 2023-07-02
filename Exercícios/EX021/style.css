@@ -1,0 +1,11 @@
+body{
+    font-family: 'Amatic SC', cursive;
+font-family: 'Bagel Fat One', cursive;
+    font-size: 16px;
+    color: black;
+}
+h1{
+    font-family: 'Bagel Fat One';
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bagel+Fat+One&display=swap');
