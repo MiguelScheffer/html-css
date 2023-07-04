@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+}
+td,th{
+    border: 1px solid black;
+}
+section{
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+section:hover{
+    background-color: aqua;
+    color: white;
+}
+td{
+    text-align: center;
+}
+.nome{
+    background-color: aquamarine;
+}
+.profissão{
+    background-color: cadetblue;
+}
+
+.sexo{
+    background-color: brown;
+}
