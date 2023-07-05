@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    width: 600px;
+}
+td,th{
+    border: 1px solid black;
+}
+thead{
+    background-color: gray;
+    color: white;
+}
+.eu{
+    background-color: gray;
+    color: white;
+}
