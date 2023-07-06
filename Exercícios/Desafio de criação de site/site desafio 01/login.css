@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input::placeholder{
+    color: white;
+}
+input{
+    background-color: #885CED;
+
+}
+input,label{
+
+}
+form{
+    position: relative;
+    
+}
