@@ -1,18 +1,95 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-}
-input::placeholder{
+  }
+  
+  :root {
+    --cor0: #6344AD;
+    --cor1: #3F2B6E;
+    --cor2: #885CED;
+    --cor3: #291C47;
+    --cor4: #3f2d69;
+  }
+  
+  html, body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: var(--cor1);
+  }
+  
+  h1 {
+    text-align: center;
     color: white;
-}
-input{
-    background-color: #885CED;
-
-}
-input,label{
-
-}
-form{
+    padding: 30px;
+    text-shadow: 2px 2px 0px black;
+  }
+  
+  menu {
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 20px;
+  }
+  
+  a {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    background-color: var(--cor3);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 15px;
+  }
+  
+  div.form {
     position: relative;
-    
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    background-color: var(--cor4);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form {
+    box-shadow: 1px 1px 0px rgba(10, 10, 10, 0.096);
+    border: 2px solid black;
+    margin: auto;
+  }
+  
+  article {
+    padding: 25px;
+  }

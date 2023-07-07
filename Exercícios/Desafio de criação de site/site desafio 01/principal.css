@@ -2,8 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --cor0:  #6344AD;
+    --cor1:  #3F2B6E;
+    --cor2:  #885CED;
+    --cor3: #291C47;
+}
 html,body{
-    background-color: #6344AD;
+    background-color: var(--cor0);
 }
 body{
  font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +18,7 @@ header{
     
     align-items: center;
     justify-content: center;
-    background-color: #3F2B6E;
+    background-color: var(--cor1);
    
 }
 h1{
@@ -22,8 +28,10 @@ h1{
     padding: 30px;
 }
 menu{
-    background-color: #885CED;
+    background-color: var(--cor2);
     padding: 20px;
+    text-align: center;
+
 }
 a{
    
@@ -34,7 +42,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    background-color: #291C47;
+    background-color: var(--cor3);
     text-shadow: 1px 1px 0px black;
     border-radius: 15px;
 }
