@@ -1,0 +1,137 @@
+
+   *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+   }
+    body,html{
+        background-image: linear-gradient(to bottom, #5E3083, #4B9199);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        width: 100vw;
+        height: 100vh;
+    }
+    main{
+        height: 100vh;
+        width: 100vw;
+    }
+    main{
+        position: relative;
+    }
+    section#login{
+        background-color: white ;
+        width: 300px;
+        height: 515px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
+    }
+    section#login > div#imagem{
+        display: block;
+        background: #5E3083 url(../img/pexels-frank-cone-3279307.jpg);
+        height: 200px; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        
+    }
+    section#login > div#formulario{
+        padding: 10px;
+        display: block;
+
+    }
+    div#formulario > h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#formulario > p{
+        font-size: 0.8em;
+    }
+    form > div.campo{
+        background-color: #5E3083;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px ;
+        border: 1px solid #a3d0e0;
+
+    }
+    form label{
+        display: none;
+    }
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 200px;
+        height: 40px;
+        background-color: #4B9199;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+
+    }
+    div.campo > span{
+        color: white;
+        font-size: 1.55em;
+        width: 40px;
+        padding: 5px;
+        
+
+    }
+    div.campo > input:focus-within{
+        background-color: white;
+        
+    }
+    div.campo > input{
+        background-color: #5eb3bd;
+        font-size: 1em;
+        width: 200px;
+        height: 80%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+
+    }
+    form >input[type=submit]:hover{
+        background-color: #3d767c;
+    }
+    form >a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        border: 1px solid #49a09d;
+        text-decoration: none;
+        color: #3d767c;
+        margin-top: 5px;
+        border-radius: 7px;
+        color: #4B9199;
+       
+    }
+    form > a.botao:hover{
+        background-color: #a3d0e0;
+        color: white;
+
+
+    }
+    form >a.botao > span{
+        font-size: 0.8em;
+
+    }
+    
+    
+    
+    
